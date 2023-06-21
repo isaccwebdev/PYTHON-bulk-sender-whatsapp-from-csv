@@ -1,13 +1,16 @@
 # PYTHON-bulk-sender-whatsapp-from-csv
 El script "Envío de Mensajes de WhatsApp desde un CSV" es una herramienta desarrollada en Python que permite enviar mensajes de WhatsApp utilizando los datos almacenados en un archivo CSV. El objetivo principal de este script es automatizar el envío masivo de mensajes a través de la plataforma de WhatsApp.
 
-El script utiliza la biblioteca selenium de Python para interactuar con WhatsApp Web. Al ejecutar el script, se abrirá un navegador web automatizado que cargará la interfaz de WhatsApp Web. Luego, el script leerá un archivo CSV que contiene los números de teléfono y los mensajes a enviar.
+El script utiliza la biblioteca pywhatkit de Python para interactuar con WhatsApp Web. Al ejecutar el script, se abrirá un navegador web automatizado que cargará la interfaz de WhatsApp Web. Luego, el script leerá un archivo CSV que contiene los números de teléfono y los mensajes a enviar.
 
 A medida que el script recorre cada fila del archivo CSV, extrae el número de teléfono y el mensaje correspondiente. A continuación, utiliza la interfaz automatizada para buscar el contacto en WhatsApp utilizando el número de teléfono y enviar el mensaje.
 
 Este proceso de envío se repite para cada registro en el archivo CSV, lo que permite enviar mensajes de manera rápida y eficiente a múltiples destinatarios.
 
 Es importante tener en cuenta que para utilizar este script, se requiere una conexión a Internet estable, un navegador web compatible y una cuenta de WhatsApp activa. Además, se debe proporcionar el archivo CSV correctamente estructurado, con las columnas "teléfono" y "mensaje".
+
+El telefono tiene que tener este formato: "+3445645645"
+
 
 Este script de Python ofrece una solución conveniente para enviar mensajes masivos de WhatsApp, ahorrando tiempo y esfuerzo al automatizar el proceso de envío utilizando datos almacenados en un archivo CSV.
 
